@@ -170,18 +170,56 @@ margin: 0;
     margin-left: 4rem;
 }
 
+/* hero section styling */
 .heroPicContainer {
     height: 40vh;
+    min-width: 100vw;
 }
 
 .heroPic {
     background: url(../images/boderHeroMobile.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100%;
 }
 
+/* intro text styling - boder */
+.introText {
+    max-width: 370px;
+    margin: 2rem auto;
+}
+
+.calloutBoder {
+    border: 2px solid var(--gold);
+    border-radius: 15px;
+    display: inline-block;
+    align-items: center;
+    padding-top: 1rem;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+.calloutBoder p{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.calloutBoder p:last-of-type{
+    margin-bottom: 1rem;    
+}
+
+.button{
+    text-decoration: none;
+    color: var(--offWhite);
+    background-color: var(--red);
+    padding: 10px;
+    border-radius: 30px;
+    padding-inline: 30px;
+    margin-left: 4rem;
+}
