@@ -32,17 +32,25 @@ h2 {
     color: var(--offWhite);
 }
 
-/* footer styling */
-.footerContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+/* Callout */
+.callout{
+    border: 2px solid var(--gold);
+    border-radius: 15px;
+    display: inline-block;
     align-items: center;
-    gap: var(--stndSpacing);
-
 }
 
-.footerContainer li {
-    list-style-type: none;
+.callout p{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
 
+.button{
+    text-decoration: none;
+    color: var(--offWhite);
+    background-color: var(--red);
+    padding: 10px;
+    border-radius: 30px;
+    padding-inline: 30px;
+    margin-left: 4rem;
 }
