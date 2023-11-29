@@ -12,6 +12,14 @@
 }
 
 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
@@ -32,6 +40,7 @@ h2 {
     font-weight: 400;
     color: var(--offWhite);
 }
+
 
 .boder, .arranger{
     display: flex;
@@ -69,5 +78,36 @@ margin: 0;
 
 .focused-entry-points a{
     text-decoration: none;
+}
+
+
+/* Callout */
+.callout{
+    border: 2px solid var(--gold);
+    border-radius: 15px;
+    display: inline-block;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.callout p{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.callout p:last-of-type{
+    margin-bottom: 1rem;
+}
+
+.button{
+    text-decoration: none;
+    color: var(--offWhite);
+    background-color: var(--red);
+    padding: 10px;
+    border-radius: 30px;
+    padding-inline: 30px;
+    margin-left: 4rem;
+    position: absolute;
+    top: 6rem;
 }
 
