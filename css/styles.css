@@ -11,6 +11,7 @@
     --largeSpacing: 2rem;
 }
 
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
@@ -32,7 +33,7 @@ h2 {
     color: var(--offWhite);
 }
 
-.boder{
+.boder, .arranger{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,12 +41,33 @@ h2 {
     border: 2px solid var(--primaryGreen);
     border-radius: 15px;
     color: var(--primaryGreen);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    max-width: 80vh;
 }
 
 .focused-entry-points{
     background-color: var(--gold);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
     
-.boder p{
+.boder p, .arranger p{
 font-weight: 600;
+margin: 0;
 }
+
+.boder i, .arranger i{
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+.focused-entry-points a{
+    text-decoration: none;
+}
+
