@@ -64,4 +64,33 @@ h2 {
 
 .footerContainer li p {
     margin-left: 2.9rem;
+  
+/* Callout */
+.callout{
+    border: 2px solid var(--gold);
+    border-radius: 15px;
+    display: inline-block;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.callout p{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.callout p:last-of-type{
+    margin-bottom: 1rem;
+}
+
+.button{
+    text-decoration: none;
+    color: var(--offWhite);
+    background-color: var(--red);
+    padding: 10px;
+    border-radius: 30px;
+    padding-inline: 30px;
+    margin-left: 4rem;
+    position: absolute;
+    top: 6rem;
 }
