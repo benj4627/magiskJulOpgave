@@ -40,34 +40,34 @@ h2 {
     color: var(--offWhite);
 }
 
-/*HEADER STYLING*/
-header {
+/*nav STYLING*/
+nav {
     display: flex;
     justify-content: space-between;
 }
-header a{
+nav a{
     list-style-type: none;
     text-decoration: none;
     color: var(--offWhite);
 }
-header ul{
+nav ul{
     display: none;
 }
-header i{
+nav i{
     fill: var(--offWhite);
     font-size: 3rem;
 
 }
-header img{
+nav img{
     max-width: 50vw;
     max-height: 3rem;
 }
 
 @media screen and (min-width:750px){
-header ul{
+nav ul{
     display: flex;
 }
-header li{
+nav li{
     margin-inline: 1rem;
 }
 #burger{
