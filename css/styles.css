@@ -75,6 +75,8 @@ nav li{
 }
 }
 
+/* Focused entry points */
+
 .boder, .arranger{
     display: flex;
     justify-content: center;
