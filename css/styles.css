@@ -171,3 +171,111 @@ margin: 0;
     margin-left: 4rem;
 }
 
+/* aktiviter */
+
+video#hero-video{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main p{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.container-magisk-julefrokost{
+    background-color: var(--gold);
+    padding: 2rem;
+    color: var(--primaryGreen);
+}
+
+.magisk-julefrokost{
+    border: 2px solid var(--primaryGreen);
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.magisk-julefrokost ul{
+    list-style-type: none;
+}
+
+.magisk-julefrokost h4{
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.magisk-julefrokost p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.julefrokost-pris{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--stndSpacing);
+}
+
+.button-julefrokost{
+    text-decoration: none;
+    color: var(--offWhite);
+    background-color: var(--red);
+    padding: 10px;
+    border-radius: 30px;
+    padding-inline: 30px;
+    padding-block: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline:2.6rem;
+    max-width: 60vh;
+}
+
+.aktiviter-card-container{
+    background-color: var(--primaryGreen);
+}
+
+.card {
+    border: 2px solid var(--gold);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: var(--largeSpacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+    max-width: 450px;
+}
+
+ 
+.cardText1 h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+ 
+.card img {
+    max-height: 70vh;
+    max-width: 60vw;
+    padding: var(--stndSpacing);
+    border-radius: 25px;
+}
