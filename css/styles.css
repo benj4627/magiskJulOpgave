@@ -1,0 +1,33 @@
+/* General styling. Fonts og variables */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,400&display=swap');
+
+:root {
+    --primaryGreen: hsl(170, 100%, 20%);
+    --almostBlack: hsl(0, 0%, 15%);
+    --gold: hsl(39, 84%, 68%);
+    --red: hsl(0, 53%, 50%);
+    --offWhite: hsl(40, 56%, 94%); 
+    --stndSpacing: 1rem;
+    --largeSpacing: 2rem;
+}
+
+body {
+    font-weight: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: var(--primaryGreen);
+    color: var(--offWhite);
+}
+
+h1 {
+    font-weight: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--offWhite);
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--offWhite);
+}
