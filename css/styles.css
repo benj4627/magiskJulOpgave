@@ -223,3 +223,34 @@ margin: 0;
     padding-inline: 30px;
     margin-left: 4rem;
 }
+
+/* styling af cards boder */
+
+.card {
+    border: 2px solid var(--gold);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: var(--largeSpacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 450px;
+}
+
+.cardText1 h4 {
+    font-weight: 400;
+}
+
+.cardText1 h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.card img {
+    max-height: 70vh;
+    max-width: 60vw;
+    padding: var(--stndSpacing);
+    border-radius: 25px;
+}
