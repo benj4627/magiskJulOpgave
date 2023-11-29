@@ -12,7 +12,6 @@
 }
 
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -40,6 +39,7 @@ h2 {
     font-weight: 400;
     color: var(--offWhite);
 }
+
 
 
 .boder, .arranger{
@@ -80,6 +80,34 @@ margin: 0;
     text-decoration: none;
 }
 
+
+
+/* footer styling */
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerContainer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--largeSpacing);
+}
+
+.footerContainer li {
+    list-style-type: none;
+}
+
+.footerContainer i {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.footerContainer li p {
+    margin-left: 2.9rem;
+  
 
 /* Callout */
 .callout{
