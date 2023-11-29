@@ -12,7 +12,7 @@
 }
 
 body {
-    font-weight: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     background-color: var(--primaryGreen);
@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-    font-weight: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.2rem;
     font-weight: 800;
     color: var(--offWhite);
@@ -30,4 +30,19 @@ h2 {
     font-size: 1.2rem;
     font-weight: 400;
     color: var(--offWhite);
+}
+
+/* footer styling */
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: var(--stndSpacing);
+
+}
+
+.footerContainer li {
+    list-style-type: none;
+
 }
