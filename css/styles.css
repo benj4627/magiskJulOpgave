@@ -39,6 +39,32 @@ h2 {
     color: var(--offWhite);
 }
 
+/* footer styling */
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerContainer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--largeSpacing);
+}
+
+.footerContainer li {
+    list-style-type: none;
+}
+
+.footerContainer i {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.footerContainer li p {
+    margin-left: 2.9rem;
+  
 /* Callout */
 .callout{
     border: 2px solid var(--gold);
