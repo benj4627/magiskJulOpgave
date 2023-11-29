@@ -118,6 +118,7 @@ margin: 0;
 
 /* footer styling */
 .footerContainer {
+    padding: 3rem 2rem; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,8 +140,16 @@ margin: 0;
     font-size: 1.5rem;
 }
 
+.footerContainer li i {
+    display: inline-block;
+    width: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
 .footerContainer li p {
-    margin-left: 2.9rem;}
+    margin-left: 2.6rem;
+}
 
 /* Callout */
 .callout{
@@ -172,7 +181,7 @@ margin: 0;
 
 /* hero section styling */
 .heroPicContainer {
-    height: 40vh;
+    height: 50vh;
     min-width: 100vw;
 }
 
@@ -191,6 +200,7 @@ margin: 0;
 .introText {
     max-width: 370px;
     margin: 2rem auto;
+    line-height: 1.5rem;
 }
 
 .calloutBoder {
