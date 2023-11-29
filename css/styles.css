@@ -74,7 +74,38 @@ nav li{
     display: none;
 }
 }
+/* HERO */
+.hero-homepage{
+    background-image: url("/images/heroLandingPage.jpg");
+    background-repeat: no-repeat;
+    min-width: 100%;
+    height: 250px;
+    text-align: center;
+    background-size: cover;
+}
+.hero-homepage h1{
+    padding-top: 3rem;
+}
 
+
+@media screen and (min-width:643px){
+.hero-homepage{
+    text-align: left;
+    height: 70vh;
+}
+.hero-homepage h1{
+    padding-top: 2rem;
+}
+.hero-homepage h1, h2{
+    padding-left: 2rem;
+}
+}
+
+/*homepage grid*/
+.homepage-introtxt-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 /* Focused entry points */
 
 .boder, .arranger{
@@ -122,6 +153,7 @@ margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-block: 2rem;
 }
 .footerContainer ul {
     display: flex;
@@ -141,7 +173,8 @@ margin: 0;
 }
 
 .footerContainer li p {
-    margin-left: 2.9rem;}
+    margin-left: 2.9rem;
+}
 
 /* Callout */
 .callout{
