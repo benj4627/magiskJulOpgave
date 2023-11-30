@@ -321,6 +321,42 @@ nav li{
     margin-bottom: var(--largeSpacing);
 }
 
+.parkeringContainer {
+    margin-top: var(--largeSpacing);
+    max-width: 370px;
+    margin: 0 auto;
+    line-height: 1.7rem;
+}
+
+.parkeringContainer img {
+    max-width: 350px;
+    margin-bottom: var(--largeSpacing);
+}
+
+.kørestolContainer {
+    margin-top: var(--largeSpacing);
+    max-width: 370px;
+    margin: 0 auto;
+    line-height: 1.7rem;
+}
+
+.kørestolContainer img {
+    max-width: 350px;
+    margin-bottom: var(--largeSpacing);
+}
+
+.hundContainer {
+    margin-top: var(--largeSpacing);
+    max-width: 370px;
+    margin: 0 auto;
+    line-height: 1.7rem;
+}
+
+.hundContainer img {
+    max-width: 350px;
+    margin-bottom: var(--largeSpacing);
+}
+
 .praktiskText {
     margin-top: var(--largeSpacing);
 }
@@ -478,13 +514,16 @@ nav li{
         color: var(--primaryGreen);
         background: var(--offWhite);
     }
-
-    /* desktop praktisk information */
 }
 
 /* 3 columns til desktop */
 @media screen and (min-width:1050px) {
     .cardContainer {
         grid-template-columns: repeat(3, minmax(350px, 1fr));
+    }
+
+    /* desktop praktisk information */
+    .praktiskGrid {
+        
     }
 }
