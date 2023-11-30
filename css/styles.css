@@ -358,6 +358,33 @@ display:none;
         justify-content: center;
         align-items: center;
     }
+
+   
+    
+    .billetkøb, .arranger{
+        padding-inline: 8rem;
+        height: auto;
+    }
+    
+    .boder{
+        padding-inline: 9rem;
+        height: auto;
+    }
+
+    .aktiviter-card-container{
+        display: grid;
+        grid-template-columns: 33vw 33vw 33vw;
+    }
+
+    .card img{
+        width: 100%;
+        max-width: 35vh;
+        height: auto;
+    }
+
+    .card{
+        justify-content:flex-start;
+    }
   
     
     /* footer */
