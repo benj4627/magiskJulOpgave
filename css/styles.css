@@ -117,34 +117,9 @@ nav ul a:hover {
 .hero-homepage h1, h2{
     padding-left: 2rem;
 }
-.homepage-introtxt-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-block: 2rem;
-    padding-inline: 2rem;
-}
-.introtxt :nth-child(2){
-    padding-top: 1rem;
-}
 .introtxt p{
-    font-size: 1rem;
-    margin-inline: 4rem;
-}
-
-.callout-container {
-    position: relative;
-}
-.callout {
-    width: 30vw;
-}
-.callout a{
-    position: absolute;
-    top: 67.5%;
-    left: 27%;
-    transform: translate(-50% -50%);
-}
-.callout :nth-child(3){
-    padding-bottom: 2rem;
+    max-width: 60vw;
+    margin: auto;
 }
 .landing-photo-2{
     background-image: url(/images/heroLanding2.jpg);
@@ -165,6 +140,37 @@ nav ul a:hover {
     }
     .landing-photo-2{
         min-height: 45vh;
+    }
+   
+}
+@media screen and (min-width:1400px){
+    .callout-container {
+        position: relative;
+    }
+    .callout {
+        width: 30vw;
+    }
+    .callout a{
+        position: absolute;
+        top: 67.5%;
+        left: 27%;
+        transform: translate(-50% -50%);
+    }
+    .callout :nth-child(3){
+        padding-bottom: 2rem;
+    }
+    .homepage-introtxt-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-block: 2rem;
+        padding-inline: 2rem;
+    }
+    .introtxt :nth-child(2){
+        padding-top: 1rem;
+    }
+    .introtxt p{
+        font-size: 1rem;
+        margin-inline: 4rem;
     }
 }
 
