@@ -73,11 +73,20 @@ nav li{
 #burger{
     display: none;
 }
+
+nav ul a {
+    transition: .3s ease-in-out;
+}
+
+nav ul a:hover {
+    color: var(--primaryGreen);
+    background: var(--offWhite);
+}
 }
 
 /* Focused entry points */
 
-.boder, .arranger{
+.boder, .arranger, .billetkøb{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,12 +110,12 @@ nav li{
     padding-bottom: 1.5rem;
 }
     
-.boder p, .arranger p{
+.boder p, .arranger p, .billetkøb p{
 font-weight: 600;
 margin: 0;
 }
 
-.boder i, .arranger i{
+.boder i, .arranger i, .billetkøb i{
     font-size: 4.5rem;
     margin-bottom: 1rem;
 }
@@ -181,22 +190,37 @@ video#hero-video{
     align-items: center;
 }
 
-main h1{
+.aktiviteter-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aktiviteter-intro h1{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main p{
+.aktiviteter-intro p{
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    max-width: 700px;
+}
+
+.aktiviter-julefrokost-steg{
+    background-color: var(--gold);
 }
 
 .container-magisk-julefrokost{
-    background-color: var(--gold);
     padding: 2rem;
     color: var(--primaryGreen);
+    position: relative;
+    min-width: 500px;
+    height:auto;
+    width: 100%;
 }
 
 .magisk-julefrokost{
@@ -207,6 +231,7 @@ main p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 2rem;
 }
 
 .magisk-julefrokost ul{
@@ -241,13 +266,20 @@ main p{
     background-color: var(--red);
     padding: 10px;
     border-radius: 30px;
-    padding-inline: 30px;
     padding-block: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-inline:2.6rem;
-    max-width: 60vh;
+    max-width: 40vh;
+    position: absolute;
+    top: 82%;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.aktiviter-julefrokost-steg img{
+display:none;
 }
 
 .aktiviter-card-container{
@@ -279,3 +311,61 @@ main p{
     padding: var(--stndSpacing);
     border-radius: 25px;
 }
+
+ /* Media Query Aktiviteter*/
+
+ @media screen and (min-width:750px){
+   /* header */
+
+
+   
+    /* main */
+    .aktiviteter-intro h1{
+        font-size: 4rem;
+    }
+
+    .aktiviter-julefrokost-steg img{
+        display: flex;
+        min-width: 50%;
+        height: auto;
+        padding-right: 2rem;
+    }
+
+    .aktiviter-julefrokost-steg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: var(--gold);
+        width: 100%;
+    }
+
+    .aktiviter-card-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .focused-entry-points{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    /* footer */
+    .footerContainer ul {
+        flex-direction: row;
+        gap: 1.5rem;
+        align-items: baseline;
+    }
+
+    .footerContainer i {
+        margin-right: .5rem;
+        align-items: center;
+    }
+
+    .footerContainer li p {
+        margin-left: unset;
+    }
+ }
