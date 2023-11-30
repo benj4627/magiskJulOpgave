@@ -68,6 +68,7 @@ nav ul{
 }
 nav li{
     margin-inline: 1rem;
+    padding: 1rem;
 }
 #burger{
     display: none;
@@ -84,10 +85,7 @@ nav li{
     border: 2px solid var(--primaryGreen);
     border-radius: 15px;
     color: var(--primaryGreen);
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 3rem;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 1rem;
@@ -181,12 +179,12 @@ margin: 0;
 
 /* hero section styling */
 .heroPicContainer {
-    height: 50vh;
+    height: 85vh;
     min-width: 100vw;
 }
 
 .heroPic {
-    background: url(../images/boderHeroMobile.jpg);
+    background: url(../images/boderDesktopHero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,6 +201,13 @@ margin: 0;
     line-height: 1.5rem;
 }
 
+
+.boderStemningsPic img {
+    display: none;
+}
+
+
+/* callout og button */
 .calloutBoder {
     border: 2px solid var(--gold);
     border-radius: 15px;
@@ -275,3 +280,39 @@ margin: 0;
 }
 
 /* media queries */
+@media screen and (min-width:750px) {
+    .heroPic h1 {
+        font-size: 7rem;
+    }
+
+    .heroPic {
+        justify-content: start;
+        padding-bottom: 20rem;
+        padding-left: 3rem;
+        position: relative;
+    }
+
+    .taglineBoder {
+        display: inline-flex;
+        position: absolute;
+        top: 35%;
+        font-size: 1.5rem;
+        margin-right: 60%;
+    }
+
+    .focused-entry-points {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--largeSpacing);
+        padding: 8rem 3rem
+    }
+    .boder {
+        grid-column: 1 / span 1;
+        padding: var(--largeSpacing);
+    }
+    
+    .arranger {
+        grid-column: 2 / span 1;
+        padding: var(--largeSpacing);
+    }
+}
