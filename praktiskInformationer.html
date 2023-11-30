@@ -19,38 +19,42 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="index.html">
-          <img src="images/magisk_jul_logo.png" alt="Magisk Juls logo" />
-        </a>
-        <ul>
-          <a href="#">
-            <li>Praktisk information</li>
+    <div class="dropShadow">
+      <header>
+        <nav>
+          <a href="index.html">
+            <img src="images/magisk_jul_logo.png" alt="Magisk Juls logo" />
           </a>
-          <a href="#">
-            <li>Mad & Spisning</li>
-          </a>
-          <a href="#">
-            <li>Boder</li>
-          </a>
-          <a href="#">
-            <li>Aktiviteter</li>
-          </a>
-          <a href="#">
-            <li>Billetter</li>
-          </a>
-        </ul>
-        <div id="burger">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-      </nav>
-    </header>
+          <ul>
+            <a href="#">
+              <li>Praktisk information</li>
+            </a>
+            <a href="#">
+              <li>Mad & Spisning</li>
+            </a>
+            <a href="#">
+              <li>Boder</li>
+            </a>
+            <a href="#">
+              <li>Aktiviteter</li>
+            </a>
+            <a href="#">
+              <li>Billetter</li>
+            </a>
+          </ul>
+          <div id="burger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </header>
+    </div>
 
     <main>
+      <div class="praktiskHeader">
+        <h1>Praktisk information</h1>
+      </div>
       <div class="praktiskGrid">
         <section class="information">
-          <h1>Praktisk information</h1>
           <div class="calloutPraktiskInfo">
             <p>4. nov til 30. dec.</p>
             <p>Tirsdag - søndag kl. 15-21</p>
@@ -73,71 +77,69 @@
           </div>
         </section>
 
-        <section>
-          <article class="parkeringContainer">
-            <div class="praktiskText">
-              <h3>Parkering</h3>
-              <p>
-                Vi tilbyder gratis parkering til vores gæster i Skulpturparken
-                Blokhus. Der er to store parkeringspladser omkring Kulturhuset
-                og ellers henviser vi til de i øvrigt placerede
-                parkeringspladser i området.
-              </p>
-            </div>
-            <div class="praktiskImg">
-              <img src="./images/parkering.jpg" alt="Billede af parkering" />
-            </div>
-          </article>
-
-          <article class="kørestolContainer">
-            <div class="praktiskText">
-              <h3>Udlån af kørestole</h3>
-              <p>
-                Kulturhuset har 2 stk. kørestole som kan udlånes til gæster på
-                besøg i Skulpturparken. Kørestolene er lette, handy og nemme at
-                håndtere. Ved lån af en kørestol betales et depositum på kr.
-                500,- som tilbagebetales ved aflevering.
-              </p>
-              <img
-                src="./images/informationKørestol.jpg"
-                alt="Billede af parkering"
-              />
-            </div>
-          </article>
-
-          <article class="hundContainer">
-            <div class="praktiskText">
-              <h3>Ta’ hund med i parken</h3>
-              <p>
-                Hunden må meget gerne komme med i parken. I skal bare have en
-                snor på Jeres dejlige firbenede kæledyr, rydde op efter dem og
-                huske at passe godt på dem, så de ikke er til gene for de øvrige
-                gæster.
-              </p>
-              <img
-                src="./images/informationHund.jpg"
-                alt="Billede af parkering"
-              />
-            </div>
-          </article>
-
-          <div class="entryPointsContainer">
-            <div class="focused-entry-points">
-              <a href="#">
-                <div class="billetkøb">
-                  <i class="fa-solid fa-ticket"></i>
-                  <p>Information om billetkøb</p>
-                </div>
-              </a>
-              <a href="#">
-                <div class="restaurantMuligheder">
-                  <i class="fa-solid fa-utensils"></i>
-                  <p>Se restaurantens muligheder</p>
-                </div>
-              </a>
-            </div>
+        <div class="parkeringContainer">
+          <div class="praktiskText">
+            <h3>Parkering</h3>
+            <p>
+              Vi tilbyder gratis parkering til vores gæster i Skulpturparken
+              Blokhus. Der er to store parkeringspladser omkring Kulturhuset og
+              ellers henviser vi til de i øvrigt placerede parkeringspladser i
+              området.
+            </p>
           </div>
-        </section>
+        </div>
+        <div class="praktiskImg">
+          <img src="./images/parkering.jpg" alt="Billede af parkering" />
+        </div>
+
+        <div class="kørestolContainer">
+          <div class="praktiskText">
+            <h3>Udlån af kørestole</h3>
+            <p>
+              Kulturhuset har 2 stk. kørestole som kan udlånes til gæster på
+              besøg i Skulpturparken. Kørestolene er lette, handy og nemme at
+              håndtere. Ved lån af en kørestol betales et depositum på kr. 500,-
+              som tilbagebetales ved aflevering.
+            </p>
+          </div>
+        </div>
+        <div class="praktiskImg">
+          <img
+            src="./images/informationKørestol.jpg"
+            alt="Billede af parkering"
+          />
+        </div>
+
+        <div class="hundContainer">
+          <div class="praktiskText">
+            <h3>Ta’ hund med i parken</h3>
+            <p>
+              Hunden må meget gerne komme med i parken. I skal bare have en snor
+              på Jeres dejlige firbenede kæledyr, rydde op efter dem og huske at
+              passe godt på dem, så de ikke er til gene for de øvrige gæster.
+            </p>
+          </div>
+        </div>
+        <div class="praktiskImg">
+          <img src="./images/informationHund.jpg" alt="Billede af parkering" />
+        </div>
+      </div>
+
+      <div class="entryPointsContainer">
+        <div class="focused-entry-points">
+          <a href="#">
+            <div class="billetkøb">
+              <i class="fa-solid fa-ticket"></i>
+              <p>Information om billetkøb</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="restaurantMuligheder">
+              <i class="fa-solid fa-utensils"></i>
+              <p>Se restaurantens muligheder</p>
+            </div>
+          </a>
+        </div>
       </div>
     </main>
 
