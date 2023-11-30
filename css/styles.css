@@ -112,8 +112,6 @@ nav li{
     text-decoration: none;
 }
 
-
-
 /* footer styling */
 .footerContainer {
     padding: 3rem 2rem; 
@@ -167,7 +165,6 @@ nav li{
     padding: 10px;
     border-radius: 30px;
     padding-inline: 30px;
-    margin-left: 4rem;
 }
 
 /* hero section styling */
@@ -272,6 +269,45 @@ nav li{
     border-radius: 25px;
 }
 
+/* praktisk information */
+/* praktisk info information section */
+.information h1 {
+    margin-bottom: var(--stndSpacing);
+    padding: 1.5rem;
+}
+
+.calloutPraktiskInfo {
+    border: 2px solid var(--gold);
+    border-radius: 15px;
+    display: inline-block;
+    align-items: center;
+    padding-top: 1rem;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+.calloutPraktiskInfo p{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.calloutPraktiskInfo p:last-of-type{
+    margin-bottom: 1rem;    
+}
+
+.praktiskInfoList {
+    max-width: 250px;
+    margin: 0 auto;
+    padding-top: var(--largeSpacing);
+}
+
+.praktiskInfoList ul {
+    list-style-type: none;
+    margin: .5rem 0rem;
+}
+
 /* media queries */
 @media screen and (min-width:750px) {
     .heroPic h1 {
@@ -308,6 +344,7 @@ nav li{
         position: relative;
     }
 
+    /* callout dekstop */
     .calloutBoder {
         grid-column: 1 / span 1;
         grid-row: 2 / span 1;
@@ -325,6 +362,7 @@ nav li{
         margin-right: 60%;
     }
 
+    /* focused entry points dekstop */
     .focused-entry-points {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -343,6 +381,7 @@ nav li{
         padding: var(--largeSpacing);
     }
 
+    /* grid layout til cards */
     .cardContainer {
         display: grid;
         grid-template-columns: repeat(2, minmax(350px, 1fr));
@@ -366,6 +405,7 @@ nav li{
         max-height: 30vh;
     }
 
+    /* Footer desktop */
     .footerContainer ul {
         flex-direction: row;
         gap: 1.5rem;
@@ -381,6 +421,7 @@ nav li{
         margin-left: unset;
     }
 
+    /* header dekstop */
     nav ul a {
         transition: .3s ease-in-out;
     }
@@ -391,6 +432,7 @@ nav li{
     }
 }
 
+/* 3 columns til desktop */
 @media screen and (min-width:1050px) {
     .cardContainer {
         grid-template-columns: repeat(3, minmax(350px, 1fr));
