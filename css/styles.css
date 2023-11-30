@@ -292,6 +292,30 @@ margin: 0;
         position: relative;
     }
 
+    .introContainer {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(400px, 1fr));
+    }
+
+    .boderStemningsPic img {
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 2;
+        display: inline;
+        height: 50vh;
+        width: 45vw;
+        padding-top: var(--largeSpacing);
+    }
+
+    .introText {
+        grid-column: 1 / span 1;
+    }
+
+    .calloutBoder {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+        max-width: 350px;
+    }
+
     .taglineBoder {
         display: inline-flex;
         position: absolute;
