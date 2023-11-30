@@ -99,8 +99,8 @@ nav li{
 }
     
 .boder p, .arranger p{
-font-weight: 600;
-margin: 0;
+    font-weight: 600;
+    margin: 0;
 }
 
 .boder i, .arranger i{
@@ -138,13 +138,6 @@ margin: 0;
     font-size: 1.5rem;
 }
 
-.footerContainer li i {
-    display: inline-block;
-    width: 1.5rem;
-    text-align: center;
-    margin-top: 1.5rem;
-  }
-
 .footerContainer li p {
     margin-left: 2.6rem;
 }
@@ -179,7 +172,7 @@ margin: 0;
 
 /* hero section styling */
 .heroPicContainer {
-    height: 85vh;
+    height: 80vh;
     min-width: 100vw;
 }
 
@@ -290,11 +283,12 @@ margin: 0;
         padding-bottom: 20rem;
         padding-left: 3rem;
         position: relative;
+        max-width: 100vw;
     }
 
     .introContainer {
         display: grid;
-        grid-template-columns: repeat(2, minmax(400px, 1fr));
+        grid-template-columns: repeat(2, minmax(350px, 1fr));
     }
 
     .boderStemningsPic img {
@@ -302,7 +296,7 @@ margin: 0;
         grid-row: 1 / span 2;
         display: inline;
         height: 50vh;
-        width: 45vw;
+        min-width: 45vw;
         padding-top: var(--largeSpacing);
     }
 
@@ -310,10 +304,17 @@ margin: 0;
         grid-column: 1 / span 1;
     }
 
+    .introText p {
+        position: relative;
+    }
+
     .calloutBoder {
         grid-column: 1 / span 1;
         grid-row: 2 / span 1;
         max-width: 350px;
+        position: absolute;
+        top: 119%;
+        left: 25%;
     }
 
     .taglineBoder {
@@ -328,8 +329,10 @@ margin: 0;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: var(--largeSpacing);
-        padding: 8rem 3rem
+        padding: 8rem 3rem;
+        width: 100vw;
     }
+
     .boder {
         grid-column: 1 / span 1;
         padding: var(--largeSpacing);
@@ -338,5 +341,58 @@ margin: 0;
     .arranger {
         grid-column: 2 / span 1;
         padding: var(--largeSpacing);
+    }
+
+    .cardContainer {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(350px, 1fr));
+        gap: 2rem; 
+        margin-top: 4rem;
+        padding-bottom: 8rem;
+        align-items: baseline;
+    }
+
+    .card {
+        max-height: 60vh;
+        transition: .3s;
+    }
+
+    .card:hover {
+        transform: scale(110%);
+    }
+
+    .card img {
+        max-width: 18vw;
+        max-height: 30vh;
+    }
+
+    .footerContainer ul {
+        flex-direction: row;
+        gap: 1.5rem;
+        align-items: baseline;
+    }
+
+    .footerContainer i {
+        margin-right: .5rem;
+        align-items: center;
+    }
+
+    .footerContainer li p {
+        margin-left: unset;
+    }
+
+    nav ul a {
+        transition: .3s ease-in-out;
+    }
+
+    nav ul a:hover {
+        color: var(--primaryGreen);
+        background: var(--offWhite);
+    }
+}
+
+@media screen and (min-width:1050px) {
+    .cardContainer {
+        grid-template-columns: repeat(3, minmax(350px, 1fr));
     }
 }
