@@ -1343,6 +1343,16 @@ margin: 0;
 }
 
 
+@media screen and (max-width: 700px) {
+    .aktiviter-julefrokost-steg img{
+        display:none;
+        }
+        
+        .aktiviter-julefrokost-steg{
+            padding-block: 2rem;
+        }
+}
+
 @media screen and (min-width: 1200px){
 .billetterTitel{
     position: absolute;
@@ -1453,16 +1463,11 @@ video#hero-video{
     font-weight: 600;
 }
 
-.aktiviter-julefrokost-steg img{
-display:none;
-}
-
-.aktiviter-julefrokost-steg{
-    padding-block: 2rem;
-}
-
 .aktiviter-card-container{
     background-color: var(--primaryGreen);
+    max-width: 400px;
+    margin: 0 auto;
+
 }
 
 .card {
@@ -1539,17 +1544,29 @@ display:none;
 
     .aktiviter-card-container{
         display: grid;
-        grid-template-columns: 33vw 33vw 33vw;
+        grid-template-columns: repeat(2, minmax(350px, 1fr));
+        gap: 2rem; 
+        margin-top: 4rem;
+        padding-bottom: 8rem;
+        align-items: baseline;
+        max-width: unset;
+        margin: unset;
     }
 
     .card img{
-        width: 100%;
+        min-width: 100%;
         max-width: 35vh;
         height: auto;
     }
 
     .card{
         justify-content:flex-start;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .aktiviter-card-container{
+        grid-template-columns: repeat(3, minmax(350px, 1fr)); 
     }
 }
 
@@ -1800,11 +1817,11 @@ display:none;
         gap: 2rem; 
         margin-top: 4rem;
         padding-bottom: 8rem;
-        align-items: baseline;
+        align-items: center;
     }
 
     .card {
-        max-height: 60vh;
+        min-height: 60vh;
         transition: .3s;
     }
 
@@ -1813,7 +1830,7 @@ display:none;
     }
 
     .card img {
-        max-width: 18vw;
+        max-width: 30vw;
         max-height: 30vh;
     }
 
