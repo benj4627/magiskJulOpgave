@@ -1548,11 +1548,11 @@ display:none;
         padding-bottom: 8rem;
         align-items: baseline;
         max-width: unset;
-    margin: unset;
+        margin: unset;
     }
 
     .card img{
-        width: 100%;
+        min-width: 100%;
         max-width: 35vh;
         height: auto;
     }
@@ -1815,11 +1815,11 @@ display:none;
         gap: 2rem; 
         margin-top: 4rem;
         padding-bottom: 8rem;
-        align-items: baseline;
+        align-items: center;
     }
 
     .card {
-        max-height: 60vh;
+        min-height: 60vh;
         transition: .3s;
     }
 
@@ -1828,7 +1828,7 @@ display:none;
     }
 
     .card img {
-        max-width: 18vw;
+        max-width: 30vw;
         max-height: 30vh;
     }
 
