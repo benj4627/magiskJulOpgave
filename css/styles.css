@@ -167,6 +167,119 @@ nav li{
     padding-inline: 30px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* boder styling */
 /* hero section styling */
 .heroPicContainer {
     height: 80vh;
@@ -268,6 +381,7 @@ nav li{
     padding: var(--stndSpacing);
     border-radius: 25px;
 }
+/* boder end */
 
 /* praktisk information */
 /* praktisk info information section */
@@ -392,7 +506,7 @@ nav li{
 }
 
 
-/* media queries */
+/* media queries til boder og praktisk info */
 @media screen and (min-width:750px) {
     .heroPic h1 {
         font-size: 7rem;
@@ -579,3 +693,4 @@ nav li{
         top: 85%;
     }
 }
+/*  */
