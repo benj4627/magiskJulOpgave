@@ -199,9 +199,9 @@ nav ul a:hover {
 }
     
 
-.boder p, .arranger p, .billetkøb p{
-font-weight: 600;
-margin: 0;
+.boder p, .arranger p, .billetkøb p{font-weight: 600;
+margin: 0;}
+
   
 .boder p, .arranger p{
     font-weight: 600;
@@ -1180,7 +1180,7 @@ display:none;
   
     
     /* footer */
-=======
+
 /* styling af cards boder */
 .cardContainer {
     display: flex;
