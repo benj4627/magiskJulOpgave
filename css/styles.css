@@ -91,6 +91,7 @@ nav ul a:hover {
     color: var(--primaryGreen);
     background: var(--offWhite);
 }
+
 }
 /* HERO */
 .hero-homepage{
@@ -172,11 +173,12 @@ nav ul a:hover {
         font-size: 1rem;
         margin-inline: 4rem;
     }
+
 }
 
 /* Focused entry points */
 
-.boder, .arranger{
+.boder, .arranger, .billetkøb{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,7 +190,6 @@ nav ul a:hover {
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 1rem;
-    max-width: 80vh;
 }
 
 .focused-entry-points{
@@ -197,12 +198,18 @@ nav ul a:hover {
     padding-bottom: 1.5rem;
 }
     
+
+.boder p, .arranger p, .billetkøb p{
+font-weight: 600;
+margin: 0;
+  
 .boder p, .arranger p{
     font-weight: 600;
     margin: 0;
+
 }
 
-.boder i, .arranger i{
+.boder i, .arranger i, .billetkøb i{
     font-size: 4.5rem;
     margin-bottom: 1rem;
 }
@@ -448,6 +455,732 @@ nav ul a:hover {
     margin-left: 4rem;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* aktiviter */
+
+video#hero-video{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aktiviteter-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aktiviteter-intro h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aktiviteter-intro p{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 700px;
+}
+
+.aktiviter-julefrokost-steg{
+    background-color: var(--gold);
+}
+
+.container-magisk-julefrokost{
+    padding: 2rem;
+    padding-bottom: 3rem;
+    color: var(--primaryGreen);
+    position: relative;
+    height:auto;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.magisk-julefrokost{
+    border: 2px solid var(--primaryGreen);
+    border-radius: 15px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.magisk-julefrokost ul{
+    list-style-type: none;
+}
+
+.magisk-julefrokost h4{
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.magisk-julefrokost p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.julefrokost-pris{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--stndSpacing);
+}
+
+.button-julefrokost{
+    text-decoration: none;
+    color: var(--offWhite);
+    background-color: var(--red);
+    padding: 10px;
+    border-radius: 30px;
+    padding-block: 1rem;
+    padding-inline:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline:2.6rem;
+    max-width: 250px;
+    position: absolute;
+    top: 80%;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.aktiviter-julefrokost-steg img{
+display:none;
+}
+
+.aktiviter-julefrokost-steg{
+    padding-block: 2rem;
+}
+
+.aktiviter-card-container{
+    background-color: var(--primaryGreen);
+}
+
+.card {
+    border: 2px solid var(--gold);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: var(--largeSpacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+}
+
+ 
+.cardText1 h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+ 
+.card img {
+    max-height: 70vh;
+    max-width: 60vw;
+    padding: var(--stndSpacing);
+    border-radius: 25px;
+}
+
+ /* Media Query Aktiviteter*/
+
+ @media screen and (min-width:750px){
+   /* header */
+
+
+   
+    /* main */
+    .aktiviter-julefrokost-steg img{
+        display:flex;
+        max-width: 50%;
+        height: auto;
+        margin: 1rem;
+        }
+
+    .aktiviter-julefrokost-steg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .container-magisk-julefrokost{
+        margin: 1rem;
+        padding: 0;
+    }
+
+    .magisk-julefrokost{
+        padding-bottom:2rem
+    }
+
+    .button-julefrokost{
+        top: 85%;
+    }
+
+    .focused-entry-points{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-block: 5rem;
+    }
+
+   
+    
+    .billetkøb, .arranger{
+        padding-inline: 8rem;
+        height: auto;
+    }
+    
+    .boder{
+        padding-inline: 9rem;
+        height: auto;
+    }
+
+    .aktiviter-card-container{
+        display: grid;
+        grid-template-columns: 33vw 33vw 33vw;
+    }
+
+    .card img{
+        width: 100%;
+        max-width: 35vh;
+        height: auto;
+    }
+
+    .card{
+        justify-content:flex-start;
+    }
+  
+    
+    /* footer */
+=======
 /* styling af cards boder */
 .cardContainer {
     display: flex;
@@ -710,6 +1443,7 @@ nav ul a:hover {
     }
 
     /* Footer desktop */
+
     .footerContainer ul {
         flex-direction: row;
         gap: 1.5rem;
@@ -724,6 +1458,18 @@ nav ul a:hover {
     .footerContainer li p {
         margin-left: unset;
     }
+
+ }
+
+
+
+
+
+
+
+
+
+
 
     /* header dekstop */
     nav ul a {
@@ -799,4 +1545,5 @@ nav ul a:hover {
         top: 85%;
     }
 }
-/*  */
+
+
