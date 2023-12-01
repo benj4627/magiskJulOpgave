@@ -1397,6 +1397,10 @@ video#hero-video{
     padding: 4rem 0rem
 }
 
+.aktiviter-julefrokost-steg img {
+    border-radius: 20px;
+}
+
 .container-magisk-julefrokost{
     padding: 2rem;
     padding-bottom: 3rem;
