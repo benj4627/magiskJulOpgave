@@ -1655,7 +1655,7 @@ display:none;
 
 /* praktisk information */
 /* praktisk info information section */
-.information h1 {
+.praktiskHeader h1 {
     margin-bottom: var(--stndSpacing);
     padding: 1.5rem;
 }
@@ -1667,9 +1667,9 @@ display:none;
     align-items: center;
     padding: 2rem 0rem;
     position: relative;
-    top: 10%;
+    top: 20%;
     left: 50%;
-    transform: translate(-50%, -10%);
+    transform: translate(-50%, -0%);
 }
 
 .calloutPraktiskInfo p{
@@ -1684,7 +1684,7 @@ display:none;
 .praktiskInfoList {
     max-width: 250px;
     margin: 0 auto;
-    padding-top: var(--largeSpacing);
+    padding-top: var(--stndSpacing);
 }
 
 .praktiskInfoList ul {
@@ -1693,15 +1693,15 @@ display:none;
 }
 
 /* praktisk information styling til tekst afsnit */
-.infoContainer {
+.praktiskGrid {
     margin-top: var(--largeSpacing);
     max-width: 370px;
     margin: 0 auto;
     line-height: 1.7rem;
 }
 
-.infoContainer img {
-    max-width: 350px;
+.praktiskGrid img {
+    max-width: 300px;
     margin-bottom: var(--largeSpacing);
 }
 
@@ -1712,9 +1712,9 @@ display:none;
     line-height: 1.7rem;
 }
 
-.parkeringContainer img {
+.praktiskImg img {
     max-width: 350px;
-    margin-bottom: var(--largeSpacing);
+    margin: 0 auto;
 }
 
 .kørestolContainer {
@@ -1949,7 +1949,7 @@ display:none;
     }
 
     .praktiskImg img {
-        height: 40vh;
+        max-height: 40vh;
         padding: 1rem;
         border-radius: 30px;
     }
