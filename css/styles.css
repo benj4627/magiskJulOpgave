@@ -1474,7 +1474,7 @@ display:none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align:left;
+    text-align:left;    
 }
 
  
@@ -1494,8 +1494,7 @@ display:none;
 
  @media screen and (min-width:750px) {
     .aktiviter-julefrokost-steg img{
-        display:flex;
-        max-width: 50%;
+        max-width: 50vw;
         height: auto;
         margin: 1rem;
         }
@@ -1527,8 +1526,6 @@ display:none;
         align-items: center;
         padding-block: 5rem;
     }
-
-   
     
     .billetkøb, .arranger{
         padding-inline: 8rem;
