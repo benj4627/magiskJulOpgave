@@ -1850,7 +1850,6 @@ display:none;
         grid-template-columns: repeat(2, 1fr);
         gap: var(--largeSpacing);
         padding: 8rem 3rem;
-        width: 100vw;
     }
 
     .boder {
@@ -1916,7 +1915,6 @@ display:none;
 
     .dropShadow {
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.106);
-        min-width: 100vw;
     }
 }
 
