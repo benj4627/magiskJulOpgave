@@ -1463,6 +1463,9 @@ display:none;
 
 .aktiviter-card-container{
     background-color: var(--primaryGreen);
+    max-width: 400px;
+    margin: 0 auto;
+
 }
 
 .card {
@@ -1542,7 +1545,13 @@ display:none;
 
     .aktiviter-card-container{
         display: grid;
-        grid-template-columns: 33vw 33vw 33vw;
+        grid-template-columns: repeat(2, minmax(350px, 1fr));
+        gap: 2rem; 
+        margin-top: 4rem;
+        padding-bottom: 8rem;
+        align-items: baseline;
+        max-width: unset;
+    margin: unset;
     }
 
     .card img{
@@ -1553,6 +1562,12 @@ display:none;
 
     .card{
         justify-content:flex-start;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .aktiviter-card-container{
+        grid-template-columns: repeat(3, minmax(350px, 1fr)); 
     }
 }
 
