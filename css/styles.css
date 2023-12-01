@@ -182,7 +182,7 @@ nav ul a:hover {
 /* Focused entry points */
 
 
-.boder, .arranger, .info, .aktiviteter, .billetkøb{
+.boder, .arranger, .info, .aktiviteter, .billetkøb, .restaurantMuligheder {
 
     display: flex;
     justify-content: center;
@@ -210,12 +210,12 @@ nav ul a:hover {
     border: 2px solid var(--hoverGreen);
 }
 
-.boder p, .arranger p, .info p, .aktiviteter p, .billetkøb p{
+.boder p, .arranger p, .info p, .aktiviteter p, .billetkøb p, .restaurantMuligheder p {
 font-weight: 600;
 margin: 0;
 }
 
-.boder i, .arranger i, .info i, .aktiviteter i, .billetkøb i{
+.boder i, .arranger i, .info i, .aktiviteter i, .billetkøb i, .restaurantMuligheder i{
     font-size: 4.5rem;
     margin-bottom: 1rem;
 }
@@ -1548,12 +1548,7 @@ display:none;
 
  /* Media Query Aktiviteter*/
 
- @media screen and (min-width:750px){
-   /* header */
-
-
-   
-    /* main */
+ @media screen and (min-width:750px) {
     .aktiviter-julefrokost-steg img{
         display:flex;
         max-width: 50%;
@@ -1615,9 +1610,7 @@ display:none;
     .card{
         justify-content:flex-start;
     }
-  
-    
-    /* footer */
+}
 
 /* styling af cards boder */
 .cardContainer {
@@ -1757,7 +1750,7 @@ display:none;
 }
 
 /* focused entry points til praktisk information*/
-.restaurantMuligheder, .billetkøb{
+/* .restaurantMuligheder, .billetkøb{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1770,9 +1763,9 @@ display:none;
     margin-right: 2rem;
     margin-bottom: 1rem;
     max-width: 80vh;
-}
+} */
     
-.restaurantMuligheder p, .billetkøb p{
+/* .restaurantMuligheder p, .billetkøb p{
     font-weight: 600;
     margin: 0;
 }
@@ -1780,7 +1773,7 @@ display:none;
 .restaurantMuligheder i, .billetkøb i{
     font-size: 4.5rem;
     margin-bottom: 1rem;
-}
+} */
 
 
 /* media queries til boder og praktisk info */
@@ -1896,18 +1889,6 @@ display:none;
     .footerContainer li p {
         margin-left: unset;
     }
-
- }
-
-
-
-
-
-
-
-
-
-
 
     /* header dekstop */
     nav ul a {
