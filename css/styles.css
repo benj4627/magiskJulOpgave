@@ -1383,6 +1383,7 @@ video#hero-video{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 3rem;
 }
 
 .aktiviteter-intro p{
@@ -1390,10 +1391,16 @@ video#hero-video{
     margin-left: 1rem;
     margin-right: 1rem;
     max-width: 700px;
+    padding-bottom: 3rem;
 }
 
 .aktiviter-julefrokost-steg{
     background-color: var(--gold);
+    padding: 4rem 0rem
+}
+
+.aktiviter-julefrokost-steg img {
+    border-radius: 20px;
 }
 
 .container-magisk-julefrokost{
