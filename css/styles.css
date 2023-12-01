@@ -1343,6 +1343,16 @@ margin: 0;
 }
 
 
+@media screen and (max-width: 700px) {
+    .aktiviter-julefrokost-steg img{
+        display:none;
+        }
+        
+        .aktiviter-julefrokost-steg{
+            padding-block: 2rem;
+        }
+}
+
 @media screen and (min-width: 1200px){
 .billetterTitel{
     position: absolute;
@@ -1451,14 +1461,6 @@ video#hero-video{
     top: 80%;
     margin-top: 1rem;
     font-weight: 600;
-}
-
-.aktiviter-julefrokost-steg img{
-display:none;
-}
-
-.aktiviter-julefrokost-steg{
-    padding-block: 2rem;
 }
 
 .aktiviter-card-container{
