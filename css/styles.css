@@ -301,76 +301,6 @@ margin: 0;
     padding-inline: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* boder styling */
 /* hero section styling */
 .heroPicContainer {
@@ -1806,15 +1736,19 @@ display:none;
 
     .introContainer {
         display: grid;
-        grid-template-columns: repeat(2, minmax(350px, 1fr));
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+    }
+
+    .boderStemningsPic {
+        max-width: 40vw;
     }
 
     .boderStemningsPic img {
         grid-column: 2 / span 1;
         grid-row: 1 / span 2;
         display: inline;
-        height: 50vh;
-        min-width: 45vw;
+        max-height: 50vh;
+        max-width: 45vw;
         padding-top: var(--largeSpacing);
     }
 
@@ -1832,7 +1766,7 @@ display:none;
         grid-row: 2 / span 1;
         max-width: 350px;
         position: absolute;
-        top: 119%;
+        top: 125%;
         left: 25%;
     }
 
